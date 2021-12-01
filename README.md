@@ -21,3 +21,8 @@ dotnet watch run
 ```
 dotnet new gitignore --force
 ```
+
+```
+cd Back/src
+dotnet tool install --global dotnet-ef --version 5
+```
