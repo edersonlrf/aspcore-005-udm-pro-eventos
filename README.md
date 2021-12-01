@@ -8,9 +8,16 @@
 ## comands
 
 ```
-cd Back\src
+cd Back/src
 dotnet new webapi -n ProEventos.API
-cd ProEventos.API
+```
+
+```
+cd Back/src/ProEventos.API
 dotnet run
 dotnet watch run
+```
+
+```
+dotnet new gitignore --force
 ```
