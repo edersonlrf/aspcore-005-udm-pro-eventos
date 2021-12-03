@@ -26,3 +26,9 @@ dotnet new gitignore --force
 cd Back/src
 dotnet tool install --global dotnet-ef --version 5
 ```
+
+```
+cd Back/src/ProEventos.API
+dotnet ef migrations add Initial -o Data/Migrations
+dotnet ef database update
+```
