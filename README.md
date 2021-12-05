@@ -32,3 +32,4 @@ cd Back/src/ProEventos.API
 dotnet ef migrations add Initial -o Data/Migrations
 dotnet ef database update
 ```
+
