@@ -37,5 +37,10 @@ dotnet ef database update
 cd Front
 ng new ProEventos-App
 cd Front/ProEventos-App
+npm start
+```
 
+```
+cd Front/ProEventos-App
+ng g c eventos
 ```
