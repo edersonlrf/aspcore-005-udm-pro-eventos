@@ -33,3 +33,9 @@ dotnet ef migrations add Initial -o Data/Migrations
 dotnet ef database update
 ```
 
+```
+cd Front
+ng new ProEventos-App
+cd Front/ProEventos-App
+
+```
