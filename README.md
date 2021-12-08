@@ -44,3 +44,14 @@ npm start
 cd Front/ProEventos-App
 ng g c eventos
 ```
+
+```
+cd Back/src/
+dotnet new sln -n ProEventos
+dotnet new classlib -n ProEventos.Persistence
+dotnet new classlib -n ProEventos.Domain
+dotnet new classlib -n ProEventos.Application
+dotnet new classlib -n ProEventos.API
+dotnet sln ProEventos.sln add ProEventos.Application
+dotnet add ProEventos.API/ProEventos.API.csproj reference ProEventos.Application/ProEventos.Application.csproj
+```
