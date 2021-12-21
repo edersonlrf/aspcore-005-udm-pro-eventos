@@ -55,3 +55,8 @@ dotnet new classlib -n ProEventos.API
 dotnet sln ProEventos.sln add ProEventos.Application
 dotnet add ProEventos.API/ProEventos.API.csproj reference ProEventos.Application/ProEventos.Application.csproj
 ```
+
+```
+dotnet ef migrations add Initial -p ProEventos.Persistence -s ProEventos.API
+dotnet ef database update -s ProEventos.API
+```
